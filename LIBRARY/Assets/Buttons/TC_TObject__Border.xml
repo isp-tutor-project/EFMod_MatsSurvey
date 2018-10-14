@@ -1,0 +1,47 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Buttons/TC_TObject__Border" itemID="5bbe7699-00000409" lastModified="1539374793">
+  <timeline>
+    <DOMTimeline name="TC_TObject__Border">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="1694.5" objectHeight="264.75" x="105.9" y="90.35" lockFlag="true" topLeftRadius="5" topRightRadius="5" bottomLeftRadius="5" bottomRightRadius="5">
+                  <matrix>
+                    <Matrix tx="-105.9" ty="-90.35"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC" alpha="0.109803921568627"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="1694.5" objectHeight="264.75" x="105.9" y="90.35" lockFlag="true" topLeftRadius="5" topRightRadius="5" bottomLeftRadius="5" bottomRightRadius="5">
+                  <matrix>
+                    <Matrix d="0.346572875976563" tx="-105.9" ty="110.6"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#CCCCCC" alpha="0.109803921568627"/>
+                  </fill>
+                </DOMRectangleObject>
+                <DOMRectangleObject objectWidth="1694.5" objectHeight="264.75" x="105.9" y="90.35" lockFlag="true" topLeftRadius="5" topRightRadius="5" bottomLeftRadius="5" bottomRightRadius="5">
+                  <matrix>
+                    <Matrix d="0.346572875976563" tx="-105.9" ty="-15.55"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#00FFFF" alpha="0.109803921568627"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

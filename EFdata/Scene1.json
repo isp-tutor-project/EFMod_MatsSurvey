@@ -1,0 +1,25 @@
+{
+    "_MODULEDATA":"v1.0.0",
+
+    "SScene1": {
+
+        "Sg1": {
+            "grpData": {
+                "members":["Sbutton1","Sbutton2"]
+            }
+        },
+
+        "Sbutton1": {
+            "btnData": {
+                "label":"{{$EFO_MATS_MODE|1}}",
+                "type":"radio"
+            }
+        },
+        "Sbutton2": {
+            "btnData": {
+                "label":"{{$EFO_MATS_MODE|2}}",
+                "type":"radio"
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "_MODULEDATA":"v1.0.0",
+    "_ONTOLOGY": {     
+        "MATS":{
+            "MODE": {
+                "part1":"Select the mode in which to run the Mats survey.",
+                "1":"PRE-TEST",
+                "2":"POST-TEST"
+            },
+            "INTRO": {
+                "part1":"We will show you a series of forteen statements. You must rate how much you agree with each of them. For Example, as shown below, if you strongly agree with the statement, I like Kennywood, you would click on the Strongly Agree button.",
+                "part2":"Click on the next button to begin.",
+
+                "title":"<p>We will show you 14 statements. You must rate how much you agree with each of them.<br>For Example, as shown below, if you strongly agree with the statement<br>'I like Kennywood', you would click on the 'Strongly Agree' button.</p>",
+                "Q1":"I like Kennywood:"
+            },
+            "INST": {
+                "part1":"Answer the questions on each page and then click next.  You may come back at any point and change your answers.",
+                "part2":"Click the Submit button when you are satisfied with your answers, or go back and make changes as desired."
+            },
+
+            "ANS": {
+                "1":"Strongly Disagree",
+                "2":"Disagree",
+                "3":"Neither Agree nor Disagree",
+                "4":"Agree",
+                "5":"Strongly Agree"
+            },
+            "PRE": {
+                "Q1":"<p>I have a good feeling about science:</p>",
+                "Q2":"<p>Science is useful for solving problems in everyday life:</p>",
+                "Q3":"<p>I do not do very well in science:</p>",
+                "Q4":"<p>Science is interesting to me:</p>",
+                "Q5":"<p>Science is one of my least favorite subjects:</p>",
+                "Q6":"<p>Science is something that I enjoy very much:</p>",
+                "Q7":"<p>I have a strong desire to learn science:</p>",
+                "Q8":"<p>I feel tense when someone talks to me about science:</p>",
+                "Q9":"<p>Most people should study some science:</p>",
+                "Q10":"<p>Science is easy for me:</p>",
+                "Q11":"<p>Science is helpful in understanding today's world:</p>",
+                "Q12":"<p>I usually understand what we are talking about in science:</p>",
+                "Q13":"<p>Sometimes I read ahead in our science book:</p>",
+                "Q14":"<p>It makes me nervous to even think about doing science experiments:</p>"
+            },
+            "POST": {
+                "Q1":"<p>It makes me nervous to even think about doing science experiments:</p>",
+                "Q2":"<p>Sometimes I read ahead in our science book:</p>",
+                "Q3":"<p>I usually understand what we are talking about in science:</p>",
+                "Q4":"<p>Science is helpful in understanding today's world:</p>",
+                "Q5":"<p>Science is easy for me:</p>",
+                "Q6":"<p>Most people should study some science:</p>",
+                "Q7":"<p>I feel tense when someone talks to me about science:</p>",
+                "Q8":"<p>I have a strong desire to learn science:</p>",
+                "Q9":"<p>Science is something that I enjoy very much:</p>",
+                "Q10":"<p>Science is one of my least favorite subjects:</p>",
+                "Q11":"<p>Science is interesting to me:</p>",
+                "Q12":"<p>I do not do very well in science:</p>",
+                "Q13":"<p>Science is useful for solving problems in everyday life:</p>",
+                "Q14":"<p>I have a good feeling about science:</p>"  
+            }
+        }
+    }
+}
+
+
+

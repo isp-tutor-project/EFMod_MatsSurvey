@@ -1,0 +1,21 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Buttons/CRadiobutton Assets/TC_TObject__CBHit" itemID="5bbe71f6-0000036f" lastModified="1539379771">
+  <timeline>
+    <DOMTimeline name="TC_TObject__CBHit">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" outline="true" current="true" isSelected="true" useOutlineView="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="905.7" objectHeight="182" x="0" y="0" lockFlag="true">
+                  <fill>
+                    <SolidColor color="#8E8E8E" alpha="0.00784313725490196"/>
+                  </fill>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

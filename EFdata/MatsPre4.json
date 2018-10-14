@@ -1,0 +1,96 @@
+{
+    "_MODULEDATA":"v1.0.0",
+
+    "SMatsPre4": {
+        "Sg1": {
+            "grpData": {
+                "members":["Sg1b1","Sg1b2","Sg1b3","Sg1b4","Sg1b5"]
+            }
+        },
+        "Sg2": {
+            "grpData": {
+                "members":["Sg2b1","Sg2b2","Sg2b3","Sg2b4","Sg2b5"]
+            }
+        },
+
+        "Squestion1": {
+            "layoutsource":"$EFL_eftext.Squestion1",
+            "htmlData":{
+                "html": "{{$EFO_MATS_PRE|Q13}}"
+            },
+            "fontSize":45
+        },
+        "Squestion2": {
+            "layoutsource":"$EFL_eftext.Squestion2",
+            "htmlData":{
+                "html": "{{$EFO_MATS_PRE|Q14}}"
+            },
+            "fontSize":45
+        },
+
+        "Ssubmit": {            
+        },
+
+        "Sg1b1": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|1}}",
+                "type":"radio"
+            }
+        },
+        "Sg1b2": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|2}}",
+                "type":"radio"
+            }
+        },
+        "Sg1b3": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|3}}",
+                "type":"radio"
+            }
+        },
+        "Sg1b4": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|4}}",
+                "type":"radio"
+            }
+        },
+        "Sg1b5": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|5}}",
+                "type":"radio"
+            }
+        },
+
+        "Sg2b1": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|1}}",
+                "type":"radio"
+            }
+        },
+        "Sg2b2": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|2}}",
+                "type":"radio"
+            }
+        },
+        "Sg2b3": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|3}}",
+                "type":"radio"
+            }
+        },
+        "Sg2b4": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|4}}",
+                "type":"radio"
+            }
+        },
+        "Sg2b5": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|5}}",
+                "type":"radio"
+            }
+        }
+    }
+}

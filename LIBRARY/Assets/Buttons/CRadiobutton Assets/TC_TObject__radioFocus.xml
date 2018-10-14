@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioFocus" itemID="5bbe724c-00000372" sourceFlashFilepath="../../../Projects FlashBuilder/TED2.1.0/Module_DedReason/DedReason_FLA/DedReason_FLA.xfl" sourceLibraryItemHRef="Buttons/CRadiobutton Assets/radioFocus" sourceLastModified="1221402873" lastModified="1539207756" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="TC_TObject__radioFocus">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="139" objectHeight="139" x="-43" y="-50" lockFlag="true" topLeftRadius="20" topRightRadius="20" bottomLeftRadius="20" bottomRightRadius="20">
+                  <matrix>
+                    <Matrix a="1.2508544921875" d="1.2508544921875" tx="36.35" ty="45.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="26.5" y="19.5"/>
+                  </transformationPoint>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" weight="4.5" pixelHinting="true">
+                      <fill>
+                        <SolidColor color="#666666"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

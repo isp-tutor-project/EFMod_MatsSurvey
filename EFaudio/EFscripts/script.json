@@ -1,0 +1,138 @@
+{
+	"SScene1": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"html": "{{$EFO_MATS_MODE|part1}}",
+					"text": "{{$EFO_MATS_MODE|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SMatsIntro": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"html": "{{$EFO_MATS_INTRO|part1}}",
+					"text": "{{$EFO_MATS_INTRO|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			},
+			"track2": {
+				"en": {
+					"html": "{{$EFO_MATS_INTRO|part2}}",
+					"text": "{{$EFO_MATS_INTRO|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SMatsPre1": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"html": "{{$EFO_MATS_INST|part1}}",
+					"text": "{{$EFO_MATS_INST|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SMatsPre4": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"html": "{{$EFO_MATS_INST|part2}}",
+					"text": "{{$EFO_MATS_INST|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SMatsPost1": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"html": "{{$EFO_MATS_INST|part1}}",
+					"text": "{{$EFO_MATS_INST|part1}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	},
+	"SMatsPost4": {
+		"tracks": {
+			"track1": {
+				"en": {
+					"html": "{{$EFO_MATS_INST|part2}}",
+					"text": "{{$EFO_MATS_INST|part2}}",
+					"volume": [
+						1
+					],
+					"cueSet": "...............................................................",
+					"segments": [],
+					"timedSet": [],
+					"trim": [
+						0
+					],
+					"templates": {}
+				}
+			}
+		}
+	}
+}

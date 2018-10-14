@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioBox" itemID="5bbe7251-00000373" sourceFlashFilepath="../../../Projects FlashBuilder/TED2.1.0/Module_DedReason/DedReason_FLA/DedReason_FLA.xfl" sourceLibraryItemHRef="Buttons/CRadiobutton Assets/radioBox" sourceLastModified="1221402864" lastModified="1539207761" sourceItemID="00000000-ffffffff">
+  <timeline>
+    <DOMTimeline name="TC_TObject__radioBox">
+      <layers>
+        <DOMLayer name="Layer 1" color="#4FFF4F" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="139" objectHeight="139" x="-43" y="-50" lockFlag="true" topLeftRadius="20" topRightRadius="20" bottomLeftRadius="20" bottomRightRadius="20">
+                  <matrix>
+                    <Matrix tx="43" ty="50"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal" weight="2" pixelHinting="true">
+                      <fill>
+                        <SolidColor color="#333333"/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

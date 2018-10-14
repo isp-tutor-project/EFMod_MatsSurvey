@@ -1,0 +1,31 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/TC_TClickMask__Mask" itemID="5bc1093f-00001dda" lastModified="1539377479">
+  <timeline>
+    <DOMTimeline name="TC_TClickMask__Mask">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMRectangleObject objectWidth="1713.3" objectHeight="218.75" x="144.75" y="540.3" selected="true" lockFlag="true" topLeftRadius="5" topRightRadius="5" bottomLeftRadius="5" bottomRightRadius="5">
+                  <matrix>
+                    <Matrix tx="-144.75" ty="-540.3"/>
+                  </matrix>
+                  <fill>
+                    <SolidColor color="#FFFFFF"/>
+                  </fill>
+                  <stroke>
+                    <SolidStroke scaleMode="normal">
+                      <fill>
+                        <SolidColor/>
+                      </fill>
+                    </SolidStroke>
+                  </stroke>
+                </DOMRectangleObject>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

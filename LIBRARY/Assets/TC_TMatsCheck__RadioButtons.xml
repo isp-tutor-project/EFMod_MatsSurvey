@@ -1,0 +1,172 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/TC_TMatsCheck__RadioButtons" itemID="5bbf693d-000008d1" symbolType="button" lastModified="1539379263" lastUniqueIdentifier="9">
+  <persistentData>
+    <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+  </persistentData>
+  <timeline>
+    <DOMTimeline name="TC_TMatsCheck__RadioButtons" currentFrame="4">
+      <layers>
+        <DOMLayer name="instance" color="#FF4F4F" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioUp&amp;#032" name="instance">
+                  <matrix>
+                    <Matrix tx="30.95" ty="30.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="56.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="instance_1" color="#00FFFF" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="1" duration="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioOver" name="instance_1" centerPoint3DX="86.95" centerPoint3DY="86.95">
+                  <matrix>
+                    <Matrix tx="30.95" ty="30.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="56.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="instance_2" color="#FF800A" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" duration="2" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="2" duration="3" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioDown" name="instance_2" selected="true" centerPoint3DX="86.95" centerPoint3DY="86.95">
+                  <matrix>
+                    <Matrix tx="30.95" ty="30.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="56.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="instance_3" color="#009999" autoNamed="false" visible="false">
+          <frames>
+            <DOMFrame index="0" duration="3" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="3" duration="2" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioDisabled" name="instance_3" centerPoint3DX="86.95" centerPoint3DY="86.95">
+                  <matrix>
+                    <Matrix tx="30.95" ty="30.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="56.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Schecked" color="#FF4FFF" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="4" keyMode="9728">
+              <elements/>
+            </DOMFrame>
+            <DOMFrame index="4" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioDown" name="Schecked" centerPoint3DX="86.95" centerPoint3DY="86.95">
+                  <matrix>
+                    <Matrix tx="30.95" ty="30.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="56" y="56.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Slabel" color="#669900" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements>
+                <DOMDynamicText name="Slabel" fontRenderingMode="standard" left="-18" width="1044.2" height="110" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="217.4" ty="33.15"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Sample</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="110" size="85" bitmapSize="1700" face="PTSans-Bold"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Scheck_FB" color="#9933CC" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioFocus" name="Scheck_FB">
+                  <matrix>
+                    <Matrix tx="17.45" ty="17.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="69.5" y="69.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Scheck_BG" color="#FF0000" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioBox" name="Scheck_BG">
+                  <matrix>
+                    <Matrix tx="17.45" ty="17.45"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="69.5" y="69.5"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+        <DOMLayer name="Scheck_HR" color="#FF4F4F" current="true" isSelected="true" autoNamed="false">
+          <frames>
+            <DOMFrame index="0" duration="5" keyMode="9728">
+              <elements>
+                <DOMSymbolInstance libraryItemName="Assets/Buttons/CRadiobutton Assets/TC_TObject__CBHit" name="Scheck_HR">
+                  <matrix>
+                    <Matrix d="0.961532592773438"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="452.85" y="91"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

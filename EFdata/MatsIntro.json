@@ -1,0 +1,59 @@
+{
+    "_MODULEDATA":"v1.0.0",
+
+    "SMatsIntro": {
+
+        "Stitle": {
+            "layoutsource":"$EFL_eftext.Stitle",
+            "htmlData":{
+                "html": "{{$EFO_MATS_INTRO|title}}"
+            },
+            "fontSize":35
+        },
+
+        "Sg1": {
+            "grpData": {
+                "members":["Sg1b1","Sg1b2","Sg1b3","Sg1b4","Sg1b5"]
+            }
+        },
+
+        "Squestion1": {
+            "layoutsource":"$EFL_eftext.Squestion1",
+            "htmlData":{
+                "html": "{{$EFO_MATS_INTRO|Q1}}"
+            },
+            "fontSize":45
+        },
+
+        "Sg1b1": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|1}}",
+                "type":"radio"
+            }
+        },
+        "Sg1b2": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|2}}",
+                "type":"radio"
+            }
+        },
+        "Sg1b3": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|3}}",
+                "type":"radio"
+            }
+        },
+        "Sg1b4": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|4}}",
+                "type":"radio"
+            }
+        },
+        "Sg1b5": {
+            "btnData": {
+                "label":"{{$EFO_MATS_ANS|5}}",
+                "type":"radio"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "_LIBRARY": {
+        "eflist": {},
+        "eftext": {
+            "Stitle": {
+                "src": "$$EFX.html_text"
+            },
+            "Squestion1": {
+                "src": "$$EFX.html_text"
+            },
+            "Squestion2": {
+                "src": "$$EFX.html_text"
+            },
+            "Squestion3": {
+                "src": "$$EFX.html_text"
+            },
+            "Squestion4": {
+                "src": "$$EFX.html_text"
+            }            
+        },
+        "efinput": {},
+        "eftable": {},
+        "efdata": {}
+    }
+}

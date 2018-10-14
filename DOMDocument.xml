@@ -1,0 +1,180 @@
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#FFFFCC" width="1920" height="1200" currentTimeline="1" xflVersion="2.96" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 18.0 build 115" majorVersion="18" buildNumber="115" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="600" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="B81F3A8048B277A361CFD7671FE11E12">
+     <folders>
+          <DOMFolderItem name="____componentassets____" itemID="5ad28523-00000243"/>
+          <DOMFolderItem name="_HTMLControls" itemID="5b6f4063-000003e9"/>
+          <DOMFolderItem name="_HTMLControls/TC_THtmlInput__Assets" itemID="5b5cd7d8-000002da"/>
+          <DOMFolderItem name="_HTMLControls/TC_THtmlList__Assets" itemID="5b5cea4b-000003ab"/>
+          <DOMFolderItem name="_HTMLControls/TC_THtmlTable__Assets" itemID="5b5f40d8-000002e3"/>
+          <DOMFolderItem name="_HTMLControls/TC_THtmlText__Assets" itemID="5b5cd7c7-000002d7"/>
+          <DOMFolderItem name="_Tutor Global Assets_" itemID="5ad4e635-00000a48"/>
+          <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components" itemID="5b6f403c-000003c9" isExpanded="true"/>
+          <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets" itemID="5b68a267-00000548"/>
+          <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/icons" itemID="532c6375-000002d1" isExpanded="true"/>
+          <DOMFolderItem name="_Tutor Global Scenes" itemID="5bbe6f7b-000002bf" isExpanded="true"/>
+          <DOMFolderItem name="Assets" itemID="5b4258e2-0000035e" isExpanded="true"/>
+          <DOMFolderItem name="Assets/Buttons" itemID="5bbe70c1-0000032d"/>
+          <DOMFolderItem name="Assets/Buttons/CRadiobutton Assets" itemID="4d6aa060-00000568"/>
+          <DOMFolderItem name="Exports" itemID="5b60aa1c-0000045f" isExpanded="true"/>
+          <DOMFolderItem name="Imports" itemID="5b92a427-00000246"/>
+          <DOMFolderItem name="Scenes" itemID="5b40f2ba-000002e0" isExpanded="true"/>
+     </folders>
+     <media>
+          <DOMBitmapItem name="____componentassets____/TutorModule" itemID="5ad39ecb-000002ce" sourceLastImported="1512163249" allowSmoothing="true" useImportedJPEGData="false" compressionType="lossless" originalCompressionType="lossless" quality="50" href="____componentassets____/TutorModule.png" bitmapDataHRef="M 3 1523818176.dat" frameLeft="140" frameTop="1720" frameRight="780" frameBottom="2360"/>
+     </media>
+     <symbols>
+          <Include href="_HTMLControls/TC_THtmlInput__Assets/InputContainer.xml" loadImmediate="false" itemID="5b633487-0000051f" lastModified="1539270165"/>
+          <Include href="_HTMLControls/TC_THtmlInput__Input1.xml" loadImmediate="false" itemID="5b633529-0000053e" lastModified="1533228606"/>
+          <Include href="_HTMLControls/TC_THtmlList__Assets/listbox.xml" loadImmediate="false" itemID="5b5cea34-000003a3" lastModified="1533050789"/>
+          <Include href="_HTMLControls/TC_THtmlList__List1.xml" loadImmediate="false" itemID="5b5f91b5-00000346" lastModified="1533225790"/>
+          <Include href="_HTMLControls/TC_THtmlList1__CustomList1.xml" loadImmediate="false" itemID="5b707bd7-000006c8" lastModified="1534618188"/>
+          <Include href="_HTMLControls/TC_THtmlTable__Assets/tablearea.xml" loadImmediate="false" itemID="5b5f40c1-000002dc" lastModified="1533050778"/>
+          <Include href="_HTMLControls/TC_THtmlTable__Table1.xml" loadImmediate="false" itemID="5b5f91bf-00000347" lastModified="1534019420"/>
+          <Include href="_HTMLControls/TC_THtmlText__Assets/TextArea.xml" loadImmediate="false" itemID="5b59ef22-00000313" lastModified="1533575923"/>
+          <Include href="_HTMLControls/TC_THtmlText__Text1.xml" loadImmediate="false" itemID="5b5f91c5-00000348" lastModified="1533575928"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/icons/SpinFocusOutline.xml" loadImmediate="false" itemID="5345b97d-00001a70" lastModified="1397078414"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/icons/SpinOutline.xml" loadImmediate="false" itemID="5345b8eb-00001a56" lastModified="1397078403"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/NextButtonDisabled.xml" loadImmediate="false" itemID="53469c53-000003b0" lastModified="1397139109"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/NextButtonDown.xml" loadImmediate="false" itemID="53469c5c-000003bb" lastModified="1397136476"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/NextButtonFocus.xml" loadImmediate="false" itemID="53469c66-000003c6" lastModified="1397136486"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/NextButtonOver.xml" loadImmediate="false" itemID="53469c70-000003d1" lastModified="1398217480"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/NextButtonUp.xml" loadImmediate="false" itemID="53469c78-000003dc" lastModified="1401481127"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/NextOutline.xml" loadImmediate="false" itemID="53469c8d-000003f0" lastModified="1397136525"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navbackdisabled.xml" loadImmediate="false" itemID="5bbe85b0-000004d5" lastModified="1539212720"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navbackdown.xml" loadImmediate="false" itemID="5bbe85a5-000004d3" lastModified="1539212709"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navbackhit.xml" loadImmediate="false" itemID="5bbe85aa-000004d4" lastModified="1539212714"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navbackover.xml" loadImmediate="false" itemID="5bbe859f-000004d2" lastModified="1539212703"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navbackup.xml" loadImmediate="false" itemID="5bbe8598-000004d1" lastModified="1539212696"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navnextdisabled.xml" loadImmediate="false" itemID="5bbe84c7-00000487" lastModified="1539212646"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navnextdown.xml" loadImmediate="false" itemID="5bbe84c0-00000486" lastModified="1539212480"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navnexthit.xml" loadImmediate="false" itemID="5bbe84ce-00000488" lastModified="1539212494"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navnextover.xml" loadImmediate="false" itemID="5bbe84ba-00000485" lastModified="1539212474"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/TC_TObject__navnextup.xml" loadImmediate="false" itemID="5bbe84b3-00000484" lastModified="1539212467"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__NextButton.xml" itemIcon="0" loadImmediate="false" itemID="5b68a24f-00000546" lastModified="1539212690"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TButton__PrevButton.xml" itemIcon="0" loadImmediate="false" itemID="5b68a25d-00000547" lastModified="1533586273"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TObject__contentFrame0.xml" loadImmediate="false" itemID="5bc12246-0000211a" lastModified="1539383878"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TObject__contentFrame1.xml" loadImmediate="false" itemID="5bc1221f-00002119" lastModified="1539383898"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TObject__contentFrame2.xml" loadImmediate="false" itemID="5bc120eb-00002109" lastModified="1539383531"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TObject__contentFrame3.xml" loadImmediate="false" itemID="5bc1224c-0000211b" lastModified="1539383884"/>
+          <Include href="_Tutor Global Assets_/NavPanel Components/TC_TObject__NavBackground.xml" loadImmediate="false" itemID="5b6f441f-0000043d" lastModified="1534018591"/>
+          <Include href="_Tutor Global Assets_/SceneRegion.xml" loadImmediate="false" itemID="5ad4e5af-00000a3e" lastModified="1523901913"/>
+          <Include href="_Tutor Global Assets_/TC_TVirtual__SceneRgn.xml" loadImmediate="false" itemID="5b7745af-0000037b" lastModified="1538757831"/>
+          <Include href="_Tutor Global Assets_/TutorModule.xml" loadImmediate="false" itemID="5ad39eb8-000002c4" lastModified="1523818168"/>
+          <Include href="_Tutor Global Scenes/TC_TNavPanel__Navigator.xml" itemID="5b77452f-00000373" lastModified="1539390000"/>
+          <Include href="Assets/Buttons/CRadiobutton Assets/TC_TObject__CBHit.xml" loadImmediate="false" itemID="5bbe71f6-0000036f" lastModified="1539379771"/>
+          <Include href="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioBox.xml" loadImmediate="false" itemID="5bbe7251-00000373" lastModified="1539207761"/>
+          <Include href="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioDisabled.xml" loadImmediate="false" itemID="5bbe7262-00000376" lastModified="1539207778"/>
+          <Include href="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioDown.xml" loadImmediate="false" itemID="5bbe726c-00000377" lastModified="1539207788"/>
+          <Include href="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioFocus.xml" loadImmediate="false" itemID="5bbe724c-00000372" lastModified="1539207756"/>
+          <Include href="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioLabel.xml" loadImmediate="false" itemID="5bbe7277-00000378" lastModified="1539210294"/>
+          <Include href="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioOver.xml" loadImmediate="false" itemID="5bbe725a-00000375" lastModified="1539207770"/>
+          <Include href="Assets/Buttons/CRadiobutton Assets/TC_TObject__radioUp&amp;#032.xml" loadImmediate="false" itemID="5bbe7256-00000374" lastModified="1539207766"/>
+          <Include href="Assets/Buttons/TC_TButton__SubmitButton.xml" itemIcon="0" loadImmediate="false" itemID="5bc11b75-00001f11" lastModified="1539383414"/>
+          <Include href="Assets/Buttons/TC_TObject__Border.xml" loadImmediate="false" itemID="5bbe7699-00000409" lastModified="1539374793"/>
+          <Include href="Assets/Buttons/TC_TObject__GroupBorder.xml" loadImmediate="false" itemID="5bbfbaf4-00001736" lastModified="1539292984"/>
+          <Include href="Assets/Buttons/TC_TObject__SubmitBG.xml" loadImmediate="false" itemID="5bc11c4c-00001fb3" lastModified="1539453216"/>
+          <Include href="Assets/TC_TButtonGroup__Groups.xml" loadImmediate="false" itemID="5bbe7535-000003cb" lastModified="1539291905"/>
+          <Include href="Assets/TC_TClickMask__Mask.xml" loadImmediate="false" itemID="5bc1093f-00001dda" lastModified="1539377479"/>
+          <Include href="Assets/TC_TMatsCheck__RadioButtons.xml" itemIcon="0" loadImmediate="false" itemID="5bbf693d-000008d1" lastModified="1539379263"/>
+          <Include href="Scenes/TC_TScene__EndCloak.xml" itemID="5b6378be-00000669" lastModified="1539362800"/>
+          <Include href="Scenes/TC_TScene__Mats1.xml" itemID="5bbe6fac-000002ea" lastModified="1539375187"/>
+          <Include href="Scenes/TC_TScene__Mats2.xml" itemID="5bbe8441-00000483" lastModified="1539381464"/>
+          <Include href="Scenes/TC_TScene__MatsIntro.xml" itemID="5bc1004b-00001d80" lastModified="1539379223"/>
+          <Include href="Scenes/TC_TScene__Scene1.xml" itemID="5bbe842c-00000463" lastModified="1539391120"/>
+          <Include href="Scenes/TC_TScene__Template.xml" loadImmediate="false" itemID="5b6f468c-000004bf" lastModified="1539207162"/>
+     </symbols>
+     <timelines>
+          <DOMTimeline name="Scene 1">
+               <layers>
+                    <DOMLayer name="Actions" color="#00FFFF" locked="true" autoNamed="false" visible="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <Framescript language="JavaScript">
+                                        <script><![CDATA[stop();]]></script>
+                                   </Framescript>
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Scene Bounds" color="#FF00FF" locked="true" outline="true" useOutlineView="true" autoNamed="false" visible="false">
+                         <frames>
+                              <DOMFrame index="0" duration="10" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/SceneRegion">
+                                             <transformationPoint>
+                                                  <Point x="959.95" y="600"/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Module Content" color="#9933CC" current="true" isSelected="true" autoNamed="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="2" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="3" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="4" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="5" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="6" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="7" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="8" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                              <DOMFrame index="9" keyMode="9728">
+                                   <elements/>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+                    <DOMLayer name="Module Component" color="#00FFFF" autoNamed="false" visible="false">
+                         <frames>
+                              <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMComponentInstance libraryItemName="_Tutor Global Assets_/TutorModule" uniqueID="1">
+                                             <matrix>
+                                                  <Matrix tx="910" ty="550"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point x="50" y="50"/>
+                                             </transformationPoint>
+                                             <parametersAsXML><![CDATA[   <property id="compositionID">
+      <Inspectable name="compositionID" variable="compositionID" category="" verbose="0" defaultValue="B81F3A8048B277A361CFD7671FE11E12" type="String"/>
+   </property>
+   <property id="__ComponentType__">
+      <Inspectable name="__ComponentType__" variable="__ComponentType__" category="" verbose="0" defaultValue="1" type="Number"/>
+   </property>
+]]></parametersAsXML>
+                                        </DOMComponentInstance>
+                                   </elements>
+                              </DOMFrame>
+                         </frames>
+                    </DOMLayer>
+               </layers>
+          </DOMTimeline>
+     </timelines>
+     <scripts>
+          <GlobalScripts language="Javascript"/>
+     </scripts>
+     <persistentData>
+          <PD n="TestMovieChecked" v="Browser"/>
+          <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
+     </persistentData>
+     <PrinterSettings/>
+     <publishHistory/>
+</DOMDocument>
