@@ -22,7 +22,7 @@
             "htmlData":{
                 "html": "{{$EFO_MATS_INTRO|Q1}}"
             },
-            "fontSize":45
+            "fontSize":42
         },
 
         "Sg1b1": {

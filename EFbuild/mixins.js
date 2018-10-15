@@ -63,6 +63,10 @@ var EFTut_Suppl;
             $cuePoints(id) { }
             $timedEvents(id) { }
             $queryFinished() {
+                let stateComplete = false;
+                return stateComplete;
+            }
+            $canGoBack() {
                 let stateComplete = true;
                 return stateComplete;
             }
@@ -71,6 +75,10 @@ var EFTut_Suppl;
                     this.enableNext(false);
                 else
                     this.enableNext(true);
+                if (!this.$canGoBack())
+                    this.enableBack(false);
+                else
+                    this.enableBack(true);
             }
         }
         EFMod_MatsSurvey.$Common = $Common;
@@ -472,6 +480,17 @@ var EFTut_Suppl;
                 return result;
             }
             $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                    case "track1":
+                        switch (cueID) {
+                            case "$start":
+                                this.addFeature("FTR_PROMPTED");
+                                break;
+                            case "$end":
+                                break;
+                        }
+                        break;
+                }
             }
             $timedEvents(id) {
             }
@@ -486,6 +505,7 @@ var EFTut_Suppl;
                         this.setSceneValue(target, "true");
                         break;
                     case "Ssubmit":
+                        this.addFeature("FTR_SUBMIT");
                         this.nextTrack("$onAction:" + this.graphState);
                         break;
                 }
@@ -495,7 +515,6 @@ var EFTut_Suppl;
                     this.nextTrack("$onAction:" + this.graphState);
                     this.setSceneValue("prompted", true);
                     this.Ssubmit.show();
-                    this.addFeature("FTR_COMPLETE");
                 }
             }
             $onSelect(target) {
@@ -805,7 +824,7 @@ var EFTut_Suppl;
                     case "track1":
                         switch (cueID) {
                             case "$start":
-                                this.addFeature("FTR_COMPLETE");
+                                this.addFeature("FTR_PROMPTED");
                                 break;
                             case "$end":
                                 break;
@@ -855,7 +874,7 @@ var EFTut_Suppl;
     (function (EFMod_MatsSurvey) {
         class SNavigator {
             $preCreateScene() {
-                this.setNavMode(EFMod_MatsSurvey.CONST.NAVNEXT, EFMod_MatsSurvey.CONST.NAVSCENE);
+                this.setNavMode(EFMod_MatsSurvey.CONST.NAVNONE, EFMod_MatsSurvey.CONST.NAVSCENE);
                 this.addFeature(EFMod_MatsSurvey.CONST.FTR_DEV);
             }
             $onEnterScene() {
@@ -904,7 +923,7 @@ var EFTut_Suppl;
 (function (EFTut_Suppl) {
     var EFMod_MatsSurvey;
     (function (EFMod_MatsSurvey) {
-        class SScene1 {
+        class SSceneEnd {
             $preCreateScene() {
             }
             $onCreateScene() {
@@ -913,6 +932,79 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_MatsSurvey.CONST.NAVNONE, EFMod_MatsSurvey.CONST.NAVSCENE);
+            }
+            $preShowScene() {
+            }
+            $preHideScene() {
+            }
+            $onExitScene() {
+            }
+            $demoInitScene() {
+            }
+            $logScene() {
+            }
+            $rewindScene() {
+            }
+            $resolveTemplate(templID) {
+            }
+            $handleEvent(compID) {
+                console.log(compID);
+            }
+            $nodePreEnter(nodeId) {
+            }
+            $nodePreExit(nodeId) {
+            }
+            $nodeAction(actionId) {
+                switch (actionId) {
+                }
+            }
+            $nodeConstraint(constrainId) {
+                let result = false;
+                switch (constrainId) {
+                }
+                return result;
+            }
+            $cuePoints(trackID, cueID) {
+                switch (trackID) {
+                }
+            }
+            $timedEvents(id) {
+            }
+            $queryFinished() {
+                let result = false;
+                return result;
+            }
+            $onAction(target) {
+                switch (target) {
+                }
+            }
+            $onSelect(target) {
+                switch (target) {
+                }
+            }
+            $onClick(target) {
+                switch (target) {
+                }
+            }
+        }
+        EFMod_MatsSurvey.SSceneEnd = SSceneEnd;
+    })(EFMod_MatsSurvey = EFTut_Suppl.EFMod_MatsSurvey || (EFTut_Suppl.EFMod_MatsSurvey = {}));
+})(EFTut_Suppl || (EFTut_Suppl = {}));
+var EFTut_Suppl;
+(function (EFTut_Suppl) {
+    var EFMod_MatsSurvey;
+    (function (EFMod_MatsSurvey) {
+        class SSceneStart {
+            $preCreateScene() {
+            }
+            $onCreateScene() {
+                this.setSceneValue("complete", false);
+            }
+            $onEnterScene() {
+            }
+            $preEnterScene() {
+                this.setNavMode(EFMod_MatsSurvey.CONST.NAVNEXT, EFMod_MatsSurvey.CONST.NAVSCENE);
             }
             $preShowScene() {
             }
@@ -980,7 +1072,7 @@ var EFTut_Suppl;
                 }
             }
         }
-        EFMod_MatsSurvey.SScene1 = SScene1;
+        EFMod_MatsSurvey.SSceneStart = SSceneStart;
     })(EFMod_MatsSurvey = EFTut_Suppl.EFMod_MatsSurvey || (EFTut_Suppl.EFMod_MatsSurvey = {}));
 })(EFTut_Suppl || (EFTut_Suppl = {}));
 //# sourceMappingURL=mixins.js.map

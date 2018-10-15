@@ -1,15 +1,15 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__MatsIntro" itemID="5bc1004b-00001d80" linkageExportForAS="true" linkageClassName="TC_TScene__MatsIntro" lastModified="1539379223">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__MatsIntro" itemID="5bc1004b-00001d80" linkageExportForAS="true" linkageClassName="TC_TScene__MatsIntro" lastModified="1539543625">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TScene__MatsIntro">
       <layers>
-        <DOMLayer name="Layer_3" color="#FF800A" current="true" isSelected="true">
+        <DOMLayer name="Layer_3" color="#FF800A" locked="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/TC_TClickMask__Mask" name="Smask">
+                <DOMSymbolInstance libraryItemName="Assets/TC_TClickMask__Mask" name="Smask" selected="true">
                   <matrix>
                     <Matrix tx="97.65" ty="540.3"/>
                   </matrix>
@@ -24,98 +24,85 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Layer_2" color="#9933CC">
+        <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMGroup>
+                <DOMSymbolInstance libraryItemName="Assets/Buttons/TC_TObject__Border">
                   <matrix>
-                    <Matrix ty="439.8"/>
+                    <Matrix a="0.943710327148438" d="0.698745727539063" tx="153.6" ty="555.05"/>
                   </matrix>
+                  <transformationPoint>
+                    <Point x="847.3" y="132.4"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Squestion1">
+                  <matrix>
+                    <Matrix a="14.5901641845703" d="0.331192016601563" tx="287.4" ty="570.1"/>
+                  </matrix>
+                  <transformationPoint>
+                    <Point x="50.15" y="50.25"/>
+                  </transformationPoint>
+                </DOMSymbolInstance>
+                <DOMGroup>
                   <members>
-                    <DOMSymbolInstance libraryItemName="Assets/Buttons/TC_TObject__Border">
+                    <DOMSymbolInstance libraryItemName="Assets/TC_TButtonGroup__Groups" name="Sg1" selected="true">
                       <matrix>
-                        <Matrix a="0.943710327148438" d="0.698745727539063" tx="153.6" ty="555.05"/>
+                        <Matrix a="0.943710327148438" d="0.943710327148438" tx="169.8" ty="642.1"/>
                       </matrix>
                       <transformationPoint>
-                        <Point x="847.3" y="132.4"/>
+                        <Point x="830.15" y="48.25"/>
                       </transformationPoint>
                     </DOMSymbolInstance>
-                    <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Squestion1">
-                      <matrix>
-                        <Matrix a="15.6092224121094" d="0.599884033203125" tx="172.8" ty="570.1"/>
-                      </matrix>
-                      <transformationPoint>
-                        <Point x="50.1" y="50.2"/>
-                      </transformationPoint>
-                    </DOMSymbolInstance>
-                    <DOMGroup>
-                      <matrix>
-                        <Matrix ty="439.8"/>
-                      </matrix>
+                    <DOMGroup selected="true">
                       <members>
-                        <DOMSymbolInstance libraryItemName="Assets/TC_TButtonGroup__Groups" name="Sg1" selected="true">
+                        <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1b1" selected="true" symbolType="button">
                           <matrix>
-                            <Matrix a="0.943710327148438" d="0.943710327148438" tx="169.8" ty="642.1"/>
+                            <Matrix a="0.295440673828125" d="0.295547485351563" tx="213.8" ty="661.4"/>
                           </matrix>
                           <transformationPoint>
-                            <Point x="830.15" y="48.25"/>
+                            <Point x="0.35" y="0.5"/>
                           </transformationPoint>
                         </DOMSymbolInstance>
-                        <DOMGroup selected="true">
+                        <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1b2" selected="true" symbolType="button">
                           <matrix>
-                            <Matrix ty="439.8"/>
+                            <Matrix a="0.295440673828125" d="0.295547485351563" tx="516.6" ty="661.4"/>
                           </matrix>
-                          <members>
-                            <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1b1" selected="true" symbolType="button">
-                              <matrix>
-                                <Matrix a="0.295440673828125" d="0.295547485351563" tx="213.8" ty="661.4"/>
-                              </matrix>
-                              <transformationPoint>
-                                <Point x="0.35" y="0.5"/>
-                              </transformationPoint>
-                            </DOMSymbolInstance>
-                            <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1b2" selected="true" symbolType="button">
-                              <matrix>
-                                <Matrix a="0.295440673828125" d="0.295547485351563" tx="516.6" ty="661.4"/>
-                              </matrix>
-                              <transformationPoint>
-                                <Point x="0.15" y="0.5"/>
-                              </transformationPoint>
-                            </DOMSymbolInstance>
-                            <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1b3" selected="true" symbolType="button">
-                              <matrix>
-                                <Matrix a="0.295440673828125" d="0.295547485351563" tx="760.9" ty="661.4"/>
-                              </matrix>
-                              <transformationPoint>
-                                <Point x="0.35" y="0.5"/>
-                              </transformationPoint>
-                            </DOMSymbolInstance>
-                            <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1b4" selected="true" symbolType="button">
-                              <matrix>
-                                <Matrix a="0.295440673828125" d="0.295547485351563" tx="1180.7" ty="661.4"/>
-                              </matrix>
-                              <transformationPoint>
-                                <Point x="0.15" y="0.5"/>
-                              </transformationPoint>
-                            </DOMSymbolInstance>
-                            <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1b5" selected="true" symbolType="button">
-                              <matrix>
-                                <Matrix a="0.295440673828125" d="0.295547485351563" tx="1424.95" ty="661.4"/>
-                              </matrix>
-                              <transformationPoint>
-                                <Point x="0.35" y="0.5"/>
-                              </transformationPoint>
-                            </DOMSymbolInstance>
-                          </members>
-                        </DOMGroup>
+                          <transformationPoint>
+                            <Point x="0.15" y="0.5"/>
+                          </transformationPoint>
+                        </DOMSymbolInstance>
+                        <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1b3" selected="true" symbolType="button">
+                          <matrix>
+                            <Matrix a="0.295440673828125" d="0.295547485351563" tx="760.9" ty="661.4"/>
+                          </matrix>
+                          <transformationPoint>
+                            <Point x="0.35" y="0.5"/>
+                          </transformationPoint>
+                        </DOMSymbolInstance>
+                        <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1b4" selected="true" symbolType="button">
+                          <matrix>
+                            <Matrix a="0.295440673828125" d="0.295547485351563" tx="1180.7" ty="661.4"/>
+                          </matrix>
+                          <transformationPoint>
+                            <Point x="0.15" y="0.5"/>
+                          </transformationPoint>
+                        </DOMSymbolInstance>
+                        <DOMSymbolInstance libraryItemName="Assets/TC_TMatsCheck__RadioButtons" name="Sg1b5" selected="true" symbolType="button">
+                          <matrix>
+                            <Matrix a="0.295440673828125" d="0.295547485351563" tx="1424.95" ty="661.4"/>
+                          </matrix>
+                          <transformationPoint>
+                            <Point x="0.35" y="0.5"/>
+                          </transformationPoint>
+                        </DOMSymbolInstance>
                       </members>
                     </DOMGroup>
                   </members>
                 </DOMGroup>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Stitle">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="Stitle" selected="true">
                   <matrix>
-                    <Matrix a="14.4448699951172" d="2.93000793457031" tx="237.75" ty="195.1"/>
+                    <Matrix a="14.4448699951172" d="2.93000793457031" tx="302.05" ty="135.1"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="50.2" y="50.2"/>

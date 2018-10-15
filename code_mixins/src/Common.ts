@@ -77,6 +77,12 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
             return  stateComplete; 
         }
 
+        public $canGoBack() : boolean {             
+
+            let stateComplete:boolean = true;
+            return  stateComplete; 
+        }
+
 		public $updateNav() : void {
 
 			// Update the Navigation
@@ -85,6 +91,12 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
                 this.enableNext(false);		
             else	
                 this.enableNext(true);		
+
+            if(!this.$canGoBack())
+                this.enableBack(false);		
+            else	
+                this.enableBack(true);		
+
 		}
     }   
 }

@@ -1,5 +1,5 @@
 {
-	"SScene1": {
+	"SSceneStart": {
 		"tracks": {
 			"track1": {
 				"en": {
@@ -16,7 +16,7 @@
 								"fileid": "0a",
 								"SSML": "Select the mode in which to run the Mats survey.",
 								"cues": [],
-								"duration": 2425.5,
+								"duration": 2517.5,
 								"trim": 0,
 								"volume": 1
 							}
@@ -84,7 +84,7 @@
 								"fileid": "0a",
 								"SSML": "Click on the next button to begin.",
 								"cues": [],
-								"duration": 1617.7083333333333,
+								"duration": 1713.9166666666667,
 								"trim": 0,
 								"volume": 1
 							}

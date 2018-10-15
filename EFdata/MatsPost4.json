@@ -18,14 +18,14 @@
             "htmlData":{
                 "html": "{{$EFO_MATS_POST|Q13}}"
             },
-            "fontSize":45
+            "fontSize":42
         },
         "Squestion2": {
             "layoutsource":"$EFL_eftext.Squestion2",
             "htmlData":{
                 "html": "{{$EFO_MATS_POST|Q14}}"
             },
-            "fontSize":45
+            "fontSize":42
         },
 
 

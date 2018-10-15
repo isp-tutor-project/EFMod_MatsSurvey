@@ -38,7 +38,7 @@
 		}
 	},
 
-	"SScene1":
+	"SSceneStart":
 	{	
 		"COMMENT":"TED Introduction sequence...",
 		"type":"animation",
@@ -270,9 +270,8 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"actionname":"DELAY",  "autostep":false, "features":""},
-                        {"trackname":"track1",  "autostep":false, "stepdelay":800,  "features":"!FTR_COMPLETE"},
-                        {"actionname":"NOOP",   "autostep":false, "features":"FTR_COMPLETE"}
+                        {"actionname":"WAIT",  "autostep":false, "features":""},
+                        {"trackname":"track1",  "autostep":false, "stepdelay":800,  "features":"!FTR_PROMPTED"}
                     ],                        
 					"edges":
 							[
@@ -447,9 +446,8 @@
                     "reuse":true,
                     "actiontracks":		
                     [
-                        {"actionname":"DELAY",  "autostep":false, "features":""},
-                        {"trackname":"track1",  "autostep":false, "stepdelay":800,  "features":"!FTR_COMPLETE"},
-                        {"actionname":"NOOP",   "autostep":false, "features":"FTR_COMPLETE"}
+                        {"actionname":"WAIT",  "autostep":false, "features":""},
+                        {"trackname":"track1",  "autostep":false, "stepdelay":800,  "features":"!FTR_PROMPTED"}
                     ],                        
 					"edges":
 							[

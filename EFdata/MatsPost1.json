@@ -29,28 +29,28 @@
             "htmlData":{
                 "html": "{{$EFO_MATS_POST|Q1}}"
             },
-            "fontSize":45
+            "fontSize":42
         },
         "Squestion2": {
             "layoutsource":"$EFL_eftext.Squestion2",
             "htmlData":{
                 "html": "{{$EFO_MATS_POST|Q2}}"
             },
-            "fontSize":45
+            "fontSize":42
         },
         "Squestion3": {
             "layoutsource":"$EFL_eftext.Squestion3",
             "htmlData":{
                 "html": "{{$EFO_MATS_POST|Q3}}"
             },
-            "fontSize":45
+            "fontSize":42
         },
         "Squestion4": {
             "layoutsource":"$EFL_eftext.Squestion4",
             "htmlData":{
                 "html": "{{$EFO_MATS_POST|Q4}}"
             },
-            "fontSize":45
+            "fontSize":42
         },
 
 

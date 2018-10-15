@@ -16,9 +16,9 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
         
         public $preCreateScene() {
             
-            // Next button only - navigate scene tracks
+            // By default disable all Navigation - Let scenes decide
             // 
-            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
+            this.setNavMode(CONST.NAVNONE, CONST.NAVSCENE);
 
             // Development ONLY !!!!!!!!
             this.addFeature(CONST.FTR_DEV);

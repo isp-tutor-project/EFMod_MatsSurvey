@@ -1,9 +1,9 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__Scene1" itemID="5bbe842c-00000463" linkageExportForAS="true" linkageClassName="TC_TScene__Scene1" lastModified="1539391120">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__SceneStart" itemID="5bc38d22-00000e97" linkageExportForAS="true" linkageClassName="TC_TScene__SceneStart" lastModified="1539542309">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
-    <DOMTimeline name="TC_TScene__Scene1">
+    <DOMTimeline name="TC_TScene__SceneStart">
       <layers>
         <DOMLayer name="Layer_2" color="#9933CC" current="true" isSelected="true">
           <frames>

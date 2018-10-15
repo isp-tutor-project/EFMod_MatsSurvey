@@ -1,7 +1,7 @@
 
 namespace EFTut_Suppl.EFMod_MatsSurvey {
 
-    export class SMatsPre4 {
+    export class SSceneStart {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
@@ -24,22 +24,12 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
         }
         
         public $preEnterScene() {
-
             // Next button only - navigate scene tracks
             // 
-            this.setNavMode(CONST.NAVBACK, CONST.NAVSCENE);
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
         }
 
         public $preShowScene() {                   
-
-            let isComplete = this.getSceneValue("prompted");
-            
-            if(isComplete) {
-                this.Ssubmit.show();
-            }
-            else {
-                this.Ssubmit.hide();
-            }
         }        
 
         public $preHideScene() {            
@@ -96,23 +86,10 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
         // Track methods.
         // 
         public $cuePoints(trackID:string, cueID:string) {
-
+            
             switch(trackID) {
-
-                case "track1":
-                    switch(cueID) {
-                        
-                        case "$start":
-                            this.addFeature("FTR_PROMPTED");
-                            break;
-
-                        case "$end":
-                            break;
-                    }
-                    break;                
             }
         }
-        
 
         public $timedEvents(id:string) {
         }
@@ -132,24 +109,22 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
         public $onAction(target:string) {         
             
             switch(target) {
+                case "Sbutton1":
+                    this.delFeature("FTR_POST");
+                    this.addFeature("FTR_PRE");
+                    break;
+
+                case "Sbutton2":
+                    this.delFeature("FTR_PRE");
+                    this.addFeature("FTR_POST");
+                    break;
+
                 case "Sg1":
-                case "Sg2":
                     this.setSceneValue(target, "true");
                     break;
-
-                case "Ssubmit":
-                    this.nextTrack("$onAction:"+this.graphState);
-                    break;
             }
 
-            let isComplete = this.querySceneProp(["Sg1","Sg2"]);
-            this.setSceneValue("complete", isComplete);     
-            
-            if(isComplete && !this.getSceneValue("prompted")) {
-                this.nextTrack("$onAction:"+this.graphState);
-                this.setSceneValue("prompted", true);
-                this.Ssubmit.show();
-            }
+            this.setSceneValue("complete", this.querySceneProp(["Sg1"]));      
         }
 
 

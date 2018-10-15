@@ -1,7 +1,7 @@
 
 namespace EFTut_Suppl.EFMod_MatsSurvey {
 
-    export class SScene1 {
+    export class SSceneEnd {
 
         // This is a special signature to avoid the typescript error "because <type> has no index signature."
         // on syntax like => this[<element name>]
@@ -24,6 +24,9 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
         }
         
         public $preEnterScene() {
+            // Next button only - navigate scene tracks
+            // 
+            this.setNavMode(CONST.NAVNONE, CONST.NAVSCENE);
         }
 
         public $preShowScene() {                   
@@ -97,7 +100,7 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
 
         public $queryFinished() : boolean {             
 
-            let result:boolean = this.getSceneValue("complete"); 
+            let result:boolean = false; 
 
             return  result; 
         }
@@ -106,22 +109,7 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
         public $onAction(target:string) {         
             
             switch(target) {
-                case "Sbutton1":
-                    this.delFeature("FTR_POST");
-                    this.addFeature("FTR_PRE");
-                    break;
-
-                case "Sbutton2":
-                    this.delFeature("FTR_PRE");
-                    this.addFeature("FTR_POST");
-                    break;
-
-                case "Sg1":
-                    this.setSceneValue(target, "true");
-                    break;
             }
-
-            this.setSceneValue("complete", this.querySceneProp(["Sg1"]));      
         }
 
 

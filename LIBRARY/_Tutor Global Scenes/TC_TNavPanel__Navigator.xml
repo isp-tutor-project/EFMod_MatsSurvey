@@ -1,17 +1,17 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TNavPanel__Navigator" itemID="5b77452f-00000373" linkageExportForAS="true" linkageClassName="TC_TNavPanel__Navigator" lastModified="1539390000" lastUniqueIdentifier="9">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="_Tutor Global Scenes/TC_TNavPanel__Navigator" itemID="5b77452f-00000373" linkageExportForAS="true" linkageClassName="TC_TNavPanel__Navigator" lastModified="1539538574" lastUniqueIdentifier="9">
   <persistentData>
     <PD n="CreateJSToolkit_timelinedata" v="version&#xA;0.1&#xA;loop&#xA;true"/>
   </persistentData>
   <timeline>
     <DOMTimeline name="TC_TNavPanel__Navigator">
       <layers>
-        <DOMLayer name="SbreadCrumbs" color="#9933CC" autoNamed="false">
+        <DOMLayer name="SbreadCrumbs" color="#9933CC" current="true" isSelected="true" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="SbreadCrumbs">
+                <DOMSymbolInstance libraryItemName="_HTMLControls/TC_THtmlText__Text1" name="SbreadCrumbs" selected="true">
                   <matrix>
-                    <Matrix a="8.568603515625" d="0.380401611328125" tx="93.5" ty="15.1"/>
+                    <Matrix a="8.568603515625" d="0.380401611328125" tx="93.5" ty="8.8"/>
                   </matrix>
                   <transformationPoint>
                     <Point x="49.8" y="50.2"/>
@@ -21,7 +21,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Snext" color="#FF4FFF" autoNamed="false" visible="false">
+        <DOMLayer name="Snext" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -37,7 +37,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Sback" color="#009999" autoNamed="false" visible="false">
+        <DOMLayer name="Sback" color="#009999" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -53,7 +53,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Smask3" color="#FF800A" current="true" isSelected="true" autoNamed="false">
+        <DOMLayer name="Smask3" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
@@ -69,11 +69,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Smask2" color="#FF4FFF" autoNamed="false" visible="false">
+        <DOMLayer name="Smask2" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TObject__contentFrame2" name="Smask2" selected="true">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TObject__contentFrame2" name="Smask2">
                   <matrix>
                     <Matrix tx="93.5" ty="64.05"/>
                   </matrix>
@@ -85,11 +85,11 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Smask1" color="#FF4FFF" autoNamed="false" visible="false">
+        <DOMLayer name="Smask1" color="#FF4FFF" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TObject__contentFrame1" name="Smask1" selected="true">
+                <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/NavPanel Components/TC_TObject__contentFrame1" name="Smask1">
                   <matrix>
                     <Matrix tx="93.5" ty="64.05"/>
                   </matrix>
@@ -101,7 +101,7 @@
             </DOMFrame>
           </frames>
         </DOMLayer>
-        <DOMLayer name="Smask0" color="#FF800A" autoNamed="false" visible="false">
+        <DOMLayer name="Smask0" color="#FF800A" autoNamed="false">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>

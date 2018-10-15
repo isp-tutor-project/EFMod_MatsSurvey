@@ -96,6 +96,21 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
         // Track methods.
         // 
         public $cuePoints(trackID:string, cueID:string) {
+
+            switch(trackID) {
+
+                case "track1":
+                    switch(cueID) {
+                        
+                        case "$start":
+                            this.addFeature("FTR_PROMPTED");
+                            break;
+
+                        case "$end":
+                            break;
+                    }
+                    break;                
+            }
         }
 
         public $timedEvents(id:string) {
@@ -122,6 +137,7 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
                     break;
 
                 case "Ssubmit":
+                    this.addFeature("FTR_SUBMIT");
                     this.nextTrack("$onAction:"+this.graphState);
                     break;
             }
@@ -133,7 +149,6 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
                 this.nextTrack("$onAction:"+this.graphState);
                 this.setSceneValue("prompted", true);
                 this.Ssubmit.show();
-                this.addFeature("FTR_COMPLETE");
             }
         }
 
