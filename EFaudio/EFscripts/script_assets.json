@@ -16,7 +16,7 @@
 								"fileid": "0a",
 								"SSML": "Select the mode in which to run the Mats survey.",
 								"cues": [],
-								"duration": 2517.5,
+								"duration": 2472.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -52,7 +52,7 @@
 								"fileid": "0a",
 								"SSML": "We will show you a series of forteen statements. You must rate how much you agree with each of them. For Example, as shown below, if you strongly agree with the statement, I like Kennywood, you would click on the Strongly Agree button.",
 								"cues": [],
-								"duration": 11736,
+								"duration": 12684.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -84,7 +84,7 @@
 								"fileid": "0a",
 								"SSML": "Click on the next button to begin.",
 								"cues": [],
-								"duration": 1713.9166666666667,
+								"duration": 1730.5416666666667,
 								"trim": 0,
 								"volume": 1
 							}
@@ -120,7 +120,7 @@
 								"fileid": "0a",
 								"SSML": "Answer the questions on each page and then click next.  You may come back at any point and change your answers.",
 								"cues": [],
-								"duration": 6244.375,
+								"duration": 5879.125,
 								"trim": 0,
 								"volume": 1
 							}
@@ -156,7 +156,7 @@
 								"fileid": "0a",
 								"SSML": "Click the Submit button when you are satisfied with your answers, or go back and make changes as desired.",
 								"cues": [],
-								"duration": 5475.708333333333,
+								"duration": 5457.916666666667,
 								"trim": 0,
 								"volume": 1
 							}
