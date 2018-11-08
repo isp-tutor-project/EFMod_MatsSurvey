@@ -167,12 +167,16 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
                     case "Sg2":
                     case "Sg3":
                     case "Sg4":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -246,12 +250,16 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
                     case "Sg2":
                     case "Sg3":
                     case "Sg4":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -325,12 +333,16 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
                     case "Sg2":
                     case "Sg3":
                     case "Sg4":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -404,12 +416,16 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
                     case "Sg2":
                     case "Sg3":
                     case "Sg4":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -499,11 +515,17 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
                     case "Sg2":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
+                }
+                switch (target) {
                     case "Ssubmit":
                         this.addFeature("FTR_SUBMIT");
                         this.nextTrack("$onAction:" + this.graphState);
@@ -586,12 +608,16 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
                     case "Sg2":
                     case "Sg3":
                     case "Sg4":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -665,12 +691,16 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
                     case "Sg2":
                     case "Sg3":
                     case "Sg4":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -744,12 +774,16 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
                     case "Sg2":
                     case "Sg3":
                     case "Sg4":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -839,11 +873,17 @@ var EFTut_Suppl;
                 return result;
             }
             $onAction(target) {
-                switch (target) {
+                let group = target.slice(0, 3);
+                let button = target.slice(3);
+                switch (group) {
                     case "Sg1":
                     case "Sg2":
-                        this.setSceneValue(target, "true");
+                        this.setSceneValue(group, "true");
+                        if (button.length)
+                            this.setSceneValue("selection:" + group, button);
                         break;
+                }
+                switch (target) {
                     case "Ssubmit":
                         this.nextTrack("$onAction:" + this.graphState);
                         break;

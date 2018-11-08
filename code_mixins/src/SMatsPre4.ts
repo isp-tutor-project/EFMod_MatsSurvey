@@ -131,12 +131,19 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
 
         public $onAction(target:string) {         
             
-            switch(target) {
+            let group:string  = target.slice(0,3);
+            let button:string = target.slice(3);
+
+            switch(group) {
                 case "Sg1":
                 case "Sg2":
-                    this.setSceneValue(target, "true");
+                    this.setSceneValue(group, "true");
+                    if(button.length)
+                        this.setSceneValue("selection:" + group, button);
                     break;
+            }
 
+            switch(target) {
                 case "Ssubmit":
                     this.nextTrack("$onAction:"+this.graphState);
                     break;
