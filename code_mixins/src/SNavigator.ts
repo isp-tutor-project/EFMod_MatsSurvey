@@ -21,7 +21,7 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
             this.setNavMode(CONST.NAVNONE, CONST.NAVSCENE);
 
             // Development ONLY !!!!!!!!
-            this.addFeature(CONST.FTR_DEV);
+            // this.addFeature(CONST.FTR_DEV);
         }
 
         public $onEnterScene() {
