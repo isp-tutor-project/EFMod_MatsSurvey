@@ -139,7 +139,7 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
                 case "Sg2":
                     this.setSceneValue(group, "true");
                     if(button.length)
-                        this.setSceneValue("selection:" + group, button);
+                        this.setSceneValue("PreTest:" + group, button);
                     break;
             }
 

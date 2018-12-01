@@ -24,6 +24,10 @@ namespace EFTut_Suppl.EFMod_MatsSurvey {
         }
         
         public $preEnterScene() {
+
+            // Next button only - navigate scene tracks
+            // 
+            this.setNavMode(CONST.NAVNEXT, CONST.NAVSCENE);
         }
 
         public $preShowScene() {                   

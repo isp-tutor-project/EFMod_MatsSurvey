@@ -106,6 +106,7 @@ var EFTut_Suppl;
             $onEnterScene() {
             }
             $preEnterScene() {
+                this.setNavMode(EFMod_MatsSurvey.CONST.NAVNEXT, EFMod_MatsSurvey.CONST.NAVSCENE);
             }
             $preShowScene() {
             }
@@ -259,7 +260,7 @@ var EFTut_Suppl;
                     case "Sg4":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("PostTest:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -342,7 +343,7 @@ var EFTut_Suppl;
                     case "Sg4":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("PostTest:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -425,7 +426,7 @@ var EFTut_Suppl;
                     case "Sg4":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("PostTest:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -522,7 +523,7 @@ var EFTut_Suppl;
                     case "Sg2":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("PostTest:" + group, button);
                         break;
                 }
                 switch (target) {
@@ -617,7 +618,7 @@ var EFTut_Suppl;
                     case "Sg4":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("PreTest:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -700,7 +701,7 @@ var EFTut_Suppl;
                     case "Sg4":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("PreTest:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -783,7 +784,7 @@ var EFTut_Suppl;
                     case "Sg4":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("PreTest:" + group, button);
                         break;
                 }
                 this.setSceneValue("complete", this.querySceneProp(["Sg1", "Sg2", "Sg3", "Sg4"]));
@@ -880,7 +881,7 @@ var EFTut_Suppl;
                     case "Sg2":
                         this.setSceneValue(group, "true");
                         if (button.length)
-                            this.setSceneValue("selection:" + group, button);
+                            this.setSceneValue("PreTest:" + group, button);
                         break;
                 }
                 switch (target) {
@@ -915,7 +916,6 @@ var EFTut_Suppl;
         class SNavigator {
             $preCreateScene() {
                 this.setNavMode(EFMod_MatsSurvey.CONST.NAVNONE, EFMod_MatsSurvey.CONST.NAVSCENE);
-                this.addFeature(EFMod_MatsSurvey.CONST.FTR_DEV);
             }
             $onEnterScene() {
             }
