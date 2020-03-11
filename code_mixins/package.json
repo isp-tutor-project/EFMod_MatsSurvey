@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "copyfiles": "^2.0.0",
-    "typescript": "^2.8.3"
+    "copyfiles": "^2.2.0",
+    "typescript": "^2.9.2"
   }
 }
