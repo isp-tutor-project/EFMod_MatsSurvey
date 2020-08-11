@@ -1,0 +1,48 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Start_btn" itemID="5f32f32f-00000060" symbolType="button" lastModified="1597174575">
+  <timeline>
+    <DOMTimeline name="Start_btn">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#0066FF"/>
+                    </FillStyle>
+                  </fills>
+                  <strokes>
+                    <StrokeStyle index="1">
+                      <SolidStroke scaleMode="normal" weight="3">
+                        <fill>
+                          <SolidColor color="#0000CC"/>
+                        </fill>
+                      </SolidStroke>
+                    </StrokeStyle>
+                  </strokes>
+                  <edges>
+                    <Edge fillStyle1="1" strokeStyle="1" edges="!-5256 -1707S6|5257 -1707!5257 -1707[5557 -1707 5557 -1407!5557 -1407|5557 1407!5557 1407[5557 1707 5257 1707!5257 1707|-5256 1707!-5256 1707[-5556 1707 -5556 1407!-5556 1407|-5556 -1407!-5556 -1407[-5556 -1707 -5256 -1707"/>
+                  </edges>
+                </DOMShape>
+                <DOMDynamicText selected="true" fontRenderingMode="standard" top="32.55" left="-28" width="239.9" height="120" isSelectable="false" lineType="multiline">
+                  <matrix>
+                    <Matrix tx="-61.95" ty="-92.55"/>
+                  </matrix>
+                  <textRuns>
+                    <DOMTextRun>
+                      <characters>Start</characters>
+                      <textAttrs>
+                        <DOMTextAttrs aliasText="false" autoKern="false" lineHeight="110" size="85" bitmapSize="1700" face="PTSans-Bold" fillColor="#FFFFFF"/>
+                      </textAttrs>
+                    </DOMTextRun>
+                  </textRuns>
+                </DOMDynamicText>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

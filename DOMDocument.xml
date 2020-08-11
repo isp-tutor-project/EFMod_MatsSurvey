@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#FFFFCC" width="1920" height="1200" currentTimeline="1" xflVersion="2.97" creatorInfo="Adobe Animate CC" platform="Windows" versionInfo="Saved by Animate Windows 19.1 build 349" majorVersion="19" minorVersion="1" buildNumber="349" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="600" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="B81F3A8048B277A361CFD7671FE11E12">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#FFFFCC" width="1920" height="1200" currentTimeline="1" xflVersion="2.971" creatorInfo="Adobe Animate" platform="Macintosh" versionInfo="Saved by Animate Macintosh 19.2 build 408" majorVersion="19" minorVersion="2" buildNumber="408" viewAngle3D="122.353661987282" vanishingPoint3DX="960" vanishingPoint3DY="600" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false" filetypeGUID="3CE50BB6-55CF-47A6-B591-01286DDDC64C" fileGUID="B81F3A8048B277A361CFD7671FE11E12">
      <folders>
           <DOMFolderItem name="____componentassets____" itemID="5ad28523-00000243"/>
           <DOMFolderItem name="_HTMLControls" itemID="5b6f4063-000003e9"/>
@@ -11,8 +11,8 @@
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets" itemID="5b68a267-00000548"/>
           <DOMFolderItem name="_Tutor Global Assets_/NavPanel Components/TC_TButton__Button Assets/icons" itemID="532c6375-000002d1" isExpanded="true"/>
           <DOMFolderItem name="_Tutor Global Scenes" itemID="5bbe6f7b-000002bf"/>
-          <DOMFolderItem name="Assets" itemID="5b4258e2-0000035e"/>
-          <DOMFolderItem name="Assets/Buttons" itemID="5bbe70c1-0000032d"/>
+          <DOMFolderItem name="Assets" itemID="5b4258e2-0000035e" isExpanded="true"/>
+          <DOMFolderItem name="Assets/Buttons" itemID="5bbe70c1-0000032d" isExpanded="true"/>
           <DOMFolderItem name="Assets/Buttons/CRadiobutton Assets" itemID="4d6aa060-00000568"/>
           <DOMFolderItem name="Exports" itemID="5b60aa1c-0000045f" isExpanded="true"/>
           <DOMFolderItem name="Imports" itemID="5b92a427-00000246"/>
@@ -71,7 +71,7 @@
           <Include href="Assets/Buttons/TC_TButton__SubmitButton.xml" itemIcon="0" loadImmediate="false" itemID="5bc11b75-00001f11" lastModified="1539383414"/>
           <Include href="Assets/Buttons/TC_TObject__Border.xml" loadImmediate="false" itemID="5bbe7699-00000409" lastModified="1539374793"/>
           <Include href="Assets/Buttons/TC_TObject__GroupBorder.xml" loadImmediate="false" itemID="5bbfbaf4-00001736" lastModified="1539292984"/>
-          <Include href="Assets/Buttons/TC_TObject__SubmitBG.xml" loadImmediate="false" itemID="5bc11c4c-00001fb3" lastModified="1539453216"/>
+          <Include href="Assets/Buttons/TC_TObject__SubmitBG.xml" loadImmediate="false" itemID="5bc11c4c-00001fb3" lastModified="1597174519"/>
           <Include href="Assets/TC_TButtonGroup__Groups.xml" loadImmediate="false" itemID="5bbe7535-000003cb" lastModified="1539291905"/>
           <Include href="Assets/TC_TClickMask__Mask.xml" loadImmediate="false" itemID="5bc1093f-00001dda" lastModified="1539377479"/>
           <Include href="Assets/TC_TMatsCheck__RadioButtons.xml" itemIcon="0" loadImmediate="false" itemID="5bbf693d-000008d1" lastModified="1539379263"/>
@@ -81,13 +81,15 @@
           <Include href="Scenes/TC_TScene__SceneEnd.xml" itemID="5bc38d89-00000e98" lastModified="1539542415"/>
           <Include href="Scenes/TC_TScene__SceneStart.xml" itemID="5bc38d22-00000e97" lastModified="1539542309"/>
           <Include href="Scenes/TC_TScene__Template.xml" loadImmediate="false" itemID="5b6f468c-000004bf" lastModified="1539207162"/>
+          <Include href="SSceneStartAlt.xml" itemIcon="0" loadImmediate="false" itemID="5f32f36d-00000064" lastModified="1597174637"/>
+          <Include href="Start_btn.xml" itemIcon="0" loadImmediate="false" itemID="5f32f32f-00000060" lastModified="1597174575"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
                     <DOMLayer name="Actions" color="#00FFFF" locked="true" autoNamed="false" visible="false">
                          <frames>
-                              <DOMFrame index="0" keyMode="9728">
+                              <DOMFrame index="0" duration="2" keyMode="9728">
                                    <Framescript language="JavaScript">
                                         <script><![CDATA[stop();]]></script>
                                    </Framescript>
@@ -97,7 +99,7 @@
                     </DOMLayer>
                     <DOMLayer name="Scene Bounds" color="#FF00FF" locked="true" outline="true" useOutlineView="true" autoNamed="false" visible="false">
                          <frames>
-                              <DOMFrame index="0" keyMode="9728">
+                              <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements>
                                         <DOMSymbolInstance libraryItemName="_Tutor Global Assets_/SceneRegion">
                                              <transformationPoint>
@@ -108,16 +110,28 @@
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Module Content" color="#9933CC" autoNamed="false">
+                    <DOMLayer name="Module Content" color="#9933CC" current="true" isSelected="true" autoNamed="false">
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
+                                   <elements>
+                                        <DOMSymbolInstance libraryItemName="SSceneStartAlt" symbolType="button">
+                                             <matrix>
+                                                  <Matrix tx="959.65" ty="631.85"/>
+                                             </matrix>
+                                             <transformationPoint>
+                                                  <Point/>
+                                             </transformationPoint>
+                                        </DOMSymbolInstance>
+                                   </elements>
+                              </DOMFrame>
+                              <DOMFrame index="1" keyMode="9728">
                                    <elements/>
                               </DOMFrame>
                          </frames>
                     </DOMLayer>
-                    <DOMLayer name="Module Component" color="#00FFFF" current="true" isSelected="true" autoNamed="false" visible="false">
+                    <DOMLayer name="Module Component" color="#00FFFF" autoNamed="false" visible="false">
                          <frames>
-                              <DOMFrame index="0" keyMode="9728">
+                              <DOMFrame index="0" duration="2" keyMode="9728">
                                    <elements>
                                         <DOMComponentInstance libraryItemName="_Tutor Global Assets_/TutorModule" uniqueID="1">
                                              <matrix>
@@ -127,10 +141,10 @@
                                                   <Point x="50" y="50"/>
                                              </transformationPoint>
                                              <parametersAsXML><![CDATA[   <property id="compositionID">
-      <Inspectable name="compositionID" variable="compositionID" category="" verbose="0" defaultValue="B81F3A8048B277A361CFD7671FE11E12" type="String"/>
+      <Inspectable name="compositionID" unlocalizedName="compositionID" variable="compositionID" category="" verbose="0" defaultValue="B81F3A8048B277A361CFD7671FE11E12" type="String"/>
    </property>
    <property id="__ComponentType__">
-      <Inspectable name="__ComponentType__" variable="__ComponentType__" category="" verbose="0" defaultValue="1" type="Number"/>
+      <Inspectable name="__ComponentType__" unlocalizedName="__ComponentType__" variable="__ComponentType__" category="" verbose="0" defaultValue="1" type="Number"/>
    </property>
 ]]></parametersAsXML>
                                         </DOMComponentInstance>
