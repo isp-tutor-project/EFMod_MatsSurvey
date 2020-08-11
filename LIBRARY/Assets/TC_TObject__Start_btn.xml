@@ -1,6 +1,6 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Start_btn" itemID="5f32f32f-00000060" symbolType="button" lastModified="1597174575">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Assets/TC_TObject__Start_btn" itemID="5f32f926-00000055" symbolType="button" lastModified="1597176102">
   <timeline>
-    <DOMTimeline name="Start_btn">
+    <DOMTimeline name="TC_TObject__Start_btn">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
