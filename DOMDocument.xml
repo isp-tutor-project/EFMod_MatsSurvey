@@ -71,18 +71,18 @@
           <Include href="Assets/Buttons/TC_TButton__SubmitButton.xml" itemIcon="0" loadImmediate="false" itemID="5bc11b75-00001f11" lastModified="1539383414"/>
           <Include href="Assets/Buttons/TC_TObject__Border.xml" loadImmediate="false" itemID="5bbe7699-00000409" lastModified="1539374793"/>
           <Include href="Assets/Buttons/TC_TObject__GroupBorder.xml" loadImmediate="false" itemID="5bbfbaf4-00001736" lastModified="1539292984"/>
+          <Include href="Assets/Buttons/TC_TObject__Start_btn.xml" itemIcon="0" loadImmediate="false" itemID="5f32f926-00000055" lastModified="1597176102"/>
           <Include href="Assets/Buttons/TC_TObject__SubmitBG.xml" loadImmediate="false" itemID="5bc11c4c-00001fb3" lastModified="1597174519"/>
           <Include href="Assets/TC_TButtonGroup__Groups.xml" loadImmediate="false" itemID="5bbe7535-000003cb" lastModified="1539291905"/>
           <Include href="Assets/TC_TClickMask__Mask.xml" loadImmediate="false" itemID="5bc1093f-00001dda" lastModified="1539377479"/>
           <Include href="Assets/TC_TMatsCheck__RadioButtons.xml" itemIcon="0" loadImmediate="false" itemID="5bbf693d-000008d1" lastModified="1539379263"/>
-          <Include href="Assets/TC_TObject__Start_btn.xml" itemIcon="0" loadImmediate="false" itemID="5f32f926-00000055" lastModified="1597176102"/>
           <Include href="Scenes/TC_TScene__Mats1.xml" itemID="5bbe6fac-000002ea" lastModified="1539543576"/>
           <Include href="Scenes/TC_TScene__Mats2.xml" itemID="5bbe8441-00000483" lastModified="1539543429"/>
           <Include href="Scenes/TC_TScene__MatsIntro.xml" itemID="5bc1004b-00001d80" lastModified="1539543625"/>
           <Include href="Scenes/TC_TScene__SceneEnd.xml" itemID="5bc38d89-00000e98" lastModified="1539542415"/>
           <Include href="Scenes/TC_TScene__SceneStart.xml" itemID="5bc38d22-00000e97" lastModified="1539542309"/>
+          <Include href="Scenes/TC_TScene__SceneStartAlt.xml" itemIcon="0" loadImmediate="false" itemID="5f33eaaf-00000055" lastModified="1597237935"/>
           <Include href="Scenes/TC_TScene__Template.xml" loadImmediate="false" itemID="5b6f468c-000004bf" lastModified="1539207162"/>
-          <Include href="Scenes/TC_TScene_SceneStartAlt.xml" itemIcon="0" loadImmediate="false" itemID="5f32f94d-00000067" lastModified="1597176141"/>
      </symbols>
      <timelines>
           <DOMTimeline name="Scene 1">
@@ -114,7 +114,7 @@
                          <frames>
                               <DOMFrame index="0" keyMode="9728">
                                    <elements>
-                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene_SceneStartAlt" symbolType="button">
+                                        <DOMSymbolInstance libraryItemName="Scenes/TC_TScene__SceneStartAlt" symbolType="button">
                                              <matrix>
                                                   <Matrix tx="959.65" ty="631.85"/>
                                              </matrix>

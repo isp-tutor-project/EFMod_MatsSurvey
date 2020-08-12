@@ -1,12 +1,12 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene_SceneStartAlt" itemID="5f32f94d-00000067" symbolType="button" lastModified="1597176141">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="Scenes/TC_TScene__SceneStartAlt" itemID="5f33eaaf-00000055" symbolType="button" lastModified="1597237935">
   <timeline>
-    <DOMTimeline name="TC_TScene_SceneStartAlt">
+    <DOMTimeline name="TC_TScene__SceneStartAlt">
       <layers>
         <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMSymbolInstance libraryItemName="Assets/TC_TObject__Start_btn" selected="true" symbolType="button">
+                <DOMSymbolInstance libraryItemName="Assets/Buttons/TC_TObject__Start_btn" selected="true" symbolType="button">
                   <transformationPoint>
                     <Point/>
                   </transformationPoint>
